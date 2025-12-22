@@ -1,0 +1,339 @@
+baseURL: 'https://nayanakmurthy.com'
+languageCode: 'en-us'
+title: 'Nayana Keshava Murthy - ESG & Sustainability Professional'
+theme: hugo-profile
+
+outputs:
+  home:
+    - 'HTML'
+    - 'RSS'
+    - 'JSON'
+  page:
+    - 'HTML'
+    - 'RSS'
+
+enableRobotsTXT: true
+
+#services:
+#googleAnalytics:
+#id: G-MEASUREMENT_ID
+#disqus:
+#shortname: your-disqus-shortname
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+    #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: 'Nayana Keshava Murthy'
+  description: "ESG professional with Distinction MSc from University of Edinburgh and 3+ years' experience in ESG data collection, validation and analysis, sustainability reporting, auditing, and data management."
+  # staticPath: ""  # The path to serve the static files from
+  favicon: '/fav.png'
+
+  # Custom CSS
+  customCSS: true
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    # disableThemeToggle: true
+    # defaultTheme: "light" # dark
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  # color preference
+  # When using hex codes for colors, quotations must be used along with the # sign
+  # color:
+  #   textColor: "#343a40"
+  #   secondaryTextColor: "#6c757d"
+  #   textLinkColor: "#007bff"
+  #   backgroundColor: "#eaedf0"
+  #   secondaryBackgroundColor: "#64ffda1a"
+  #   primaryColor: "#007bff"
+  #   secondaryColor: "#f8f9fa"
+
+  #   darkmode:
+  #     textColor: "#e4e6eb"
+  #     secondaryTextColor: "#b0b3b8"
+  #     textLinkColor: "#ffffff"
+  #     backgroundColor: "#18191a"
+  #     secondaryBackgroundColor: "#212529"
+  #     primaryColor: "#ffffff"
+  #     secondaryColor: "#212529"
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: 'Nayana Keshava Murthy' # Brand name for the brand | default is the title variable
+    disableSearch: false
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable: true
+      showOnScrollUp: true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: true
+      disableAchievements: false
+      disableContact: false
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, I'm"
+    title: 'Nayana Keshava Murthy'
+    subtitle: 'ESG & Sustainability Professional'
+    content: "MSc Global Strategy and Sustainability (Distinction) from University of Edinburgh with 3+ years' experience in ESG data collection, validation and analysis, sustainability reporting, and GHG emission calculations. CSRD certified with expertise in ESRS standards."
+    image: /images/hero.png
+    bottomImage:
+      enable: true
+    # roundImage: true # Make hero image circular | default false
+    button:
+      enable: true
+      name: 'View Resume'
+      url: '/Nayana-Resume.pdf'
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://linkedin.com/in/nayanakmurthy
+        - icon: fa fa-envelope
+          url: mailto:nayanakeshavamurthy@gmail.com
+      customIcons: []
+
+  # About
+  about:
+    enable: true
+    title: 'About Me'
+    image: '/images/me.png'
+    content: |-
+      I am an ESG professional with a Distinction MSc in Global Strategy and Sustainability from the University of Edinburgh and over 3 years of experience in ESG data collection, validation and analysis, sustainability reporting, auditing, and data management.
+
+      With a proven track record of delivering ESG KPIs for 150+ companies using GRI and BRSR frameworks, I bring expertise in supporting ESG rating processes and managing GHG emission calculations (Scope 1, 2, 3). I am CSRD certified with working knowledge of ESRS standards and hold a Chartered Accountant qualification from ICAI.
+
+      Based in Klaus, Vorarlberg, Austria, I combine technical expertise with strategic thinking to help organizations navigate their sustainability journey and meet evolving ESG reporting requirements.
+    skills:
+      enable: true
+      title: 'Core Competencies & Technical Skills:'
+      items:
+        - 'GRI & BRSR Reporting'
+        - 'CSRD & ESRS Standards'
+        - 'GHG Protocol & Carbon Accounting'
+        - 'ESG Data Analysis'
+        - 'Sustainability Audits'
+        - 'Corporate Governance'
+        - 'Excel & Tableau'
+        - 'Net Zero Strategies'
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - company: 'South of Scotland Enterprise (SOSE)'
+        companyUrl: 'https://www.southofscotlandenterprise.com/'
+        jobs:
+          - name: 'Sustainability Consultant'
+            date: 'January 2025 - April 2025'
+            content: |
+              - Designed a five-stage Net Zero pathway for tourism SMEs involving GHG emission calculations (Scope 1, 2, 3) using GHG Protocol methodology and carbon footprint assessment tools
+              - Conducted policy analysis and stakeholder data collection through interviews with four businesses, validating carbon footprint data and identifying decarbonization priorities aligned with Scotland's 2045 Net Zero targets
+              - Conducted quantitative data analysis and developed visual performance tracking framework enabling stakeholders to identify priority intervention areas and track decarbonization progress
+              - Delivered implementation roadmap and actionable recommendations to SOSE, demonstrating ability to translate complex ESG data into practical business guidance
+
+      - company: 'Balu and Anand Chartered Accountants'
+        companyUrl: '#'
+        jobs:
+          - name: 'Audit Manager'
+            date: 'April 2024 - August 2024'
+            content: |
+              - Secured three new clients by identifying client needs and proposing tailored solutions, resulting in a 15% expansion of the firm's portfolio
+              - Managed six statutory audits with focus on internal controls and data quality assurance, leading project teams of 10 staff and improving audit delivery efficiency by 20% through structured quality review processes
+
+      - company: 'Institutional Investor Advisory Services (IiAS)'
+        companyUrl: 'https://www.iias.in/'
+        jobs:
+          - name: 'ESG / Governance Analyst'
+            date: 'May 2023 - March 2024'
+            content: |
+              - Collected, validated, and analyzed ESG KPIs for 150+ listed companies using established frameworks (BRSR, GRI), supporting institutional investors with data-driven ESG assessments and proxy voting recommendations
+              - Led governance assessments for 12 of India's top 100 companies for the Corporate Governance Scorecard, evaluating disclosures, board practices, and financial controls to assign ratings published in nationally referenced investor report
+              - Prepared ESG scorecards for 10 listed companies, providing tailored recommendations that enabled 7 firms to improve from BASIC to FAIR ratings through strengthened disclosures and enhanced data quality
+
+      - company: 'PwC Services LLP'
+        companyUrl: 'https://www.pwc.in/'
+        jobs:
+          - name: 'Associate SAP FI/CO - Technology Consulting'
+            date: 'November 2021 - February 2023'
+            content: |
+              - Supported SAP FI/CO implementation (AP, AR, GL modules) for a pharmaceutical client across France, Italy, and Spain by coordinating testing and collaborating with techno-functional teams to ensure a smooth system migration
+              - Delivered training to 5 cross-functional client teams and developed user manuals for SAP navigation, reducing adoption time by 50% and minimising post implementation queries
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+      - title: 'MSc Global Strategy and Sustainability'
+        school:
+          name: 'University of Edinburgh'
+          url: 'https://www.ed.ac.uk/'
+        date: 'September 2024 - August 2025'
+        GPA: 'Distinction'
+        content: |-
+          Key Projects:
+            - Built an excel-based personal carbon footprint model using the GHG Protocol Corporate and Scope 3 Standards, calculating Scope 1, 2, and selected Scope 3 emissions
+            - Produced strategic Net Zero policy analysis applying political economy, mission-led innovation, and climate governance frameworks
+      - title: 'Chartered Accountant (CA)'
+        school:
+          name: 'Institute of Chartered Accountants of India (ICAI)'
+          url: 'https://www.icai.org/'
+        date: '2016 - 2021'
+        content: |-
+          Relevant Coursework:
+            - Risk Management
+            - Financial Reporting
+            - Auditing
+            - Strategic Financial Management
+      - title: 'B.Com International Business'
+        school:
+          name: "St Joseph's College of Commerce (SJCC)"
+          url: 'https://www.sjcc.edu.in/'
+        date: '2016 - 2019'
+        content: |-
+          Undergraduate degree focused on international business practices and commerce fundamentals.
+
+  # Achievements
+  achievements:
+    enable: true
+    title: 'Certifications & Professional Development'
+    items:
+      - title: CSRD Fundamentals
+        content: Completed comprehensive training on Corporate Sustainability Reporting Directive fundamentals (May 2025)
+        image: /images/achievement.jpg
+      - title: Double Materiality Assessment for CSRD
+        content: Deep dive certification on Double Materiality Assessment methodology for CSRD Reporting (June 2025)
+        image: /images/achievement.jpg
+      - title: CSRD & ESRS for Corporates
+        content: Advanced training on Corporate Sustainability Reporting Directive and European Sustainability Reporting Standards implementation (May 2025)
+        image: /images/achievement.jpg
+      - title: IEMA Student Member
+        content: Student member of the Institute of Environmental Management & Assessment, demonstrating commitment to environmental sustainability
+      - title: Chartered Accountant (ICAI)
+        content: Professional qualification from the Institute of Chartered Accountants of India with expertise in auditing, financial reporting, and risk management
+      - title: U&I Trust Leadership
+        content: Led mentorship and life skills programs for 100+ underprivileged youth aged 14-18, recruited and trained 40+ volunteers across 3 centers over 4 years
+
+  # projects
+  projects:
+    enable: false
+    # title: "Custom Name"
+    items: []
+
+  #Contact
+  contact:
+    enable: true
+    # title: "Custom Name"
+    content: I'm always open to discussing ESG consulting opportunities, sustainability projects, or collaboration. Feel free to reach out!
+    btnName: Contact Me
+    btnLink: mailto:nayanakeshavamurthy@gmail.com
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: 'blogs'
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      linkedin: https://linkedin.com/in/nayanakmurthy
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: 'min read'
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: 'Read'
+    toc: 'Table Of Contents'
+    copyright: 'All rights reserved'
+    pageNotFound: 'Page not found'
+    emailText: 'Check out this site'
+
+  datesFormat:
+    article: 'Jan 2, 2006'
+    articleList: 'Jan 2, 2006'
+    articleRecent: 'Jan 2, 2006'
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
