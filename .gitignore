@@ -19,3 +19,7 @@ package-lock.json
 # Environment files
 .env
 .env.local
+
+
+.obsidian
+content/blogs/template/
