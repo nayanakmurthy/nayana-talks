@@ -54,7 +54,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: 'Nayana Keshava Murthy'
+  title: 'Nayana Keshava Murthy1'
   description: "ESG professional with Distinction MSc from University of Edinburgh and 3+ years' experience in ESG data collection, validation and analysis, sustainability reporting, auditing, and data management."
   # staticPath: ""  # The path to serve the static files from
   favicon: '/fav.png'

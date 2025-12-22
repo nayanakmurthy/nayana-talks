@@ -23,3 +23,4 @@ package-lock.json
 
 .obsidian
 content/blogs/template/
+/content/blogs/hugo.yaml
