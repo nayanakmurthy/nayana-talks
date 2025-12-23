@@ -190,12 +190,7 @@ params:
             content: |
               - Designed comprehensive sustainability impact reports and environmental impact assessments for large-scale events (800-3,000 guests), conducting carbon footprint analysis using GHG Protocol, analysing waste diversion across multiple streams, and mapping outcomes to UN SDGs.
               - Devised stakeholder communication materials translating complex environmental data into accessible narratives with visual storytelling, supporting client engagement, vendor alignment, and public awareness for India's leading sustainable events organisation.
-              
-  # Experience
-  experience:
-    enable: true
-    # title: "Custom Name"
-    items:
+
       - company: 'South of Scotland Enterprise (SOSE)'
         companyUrl: 'https://www.southofscotlandenterprise.com/'
         jobs:
@@ -207,7 +202,6 @@ params:
               - Conducted quantitative data analysis and developed visual performance tracking framework enabling stakeholders to identify priority intervention areas and track decarbonisation progress.
               - Delivered implementation roadmap and actionable recommendations to SOSE, demonstrating ability to translate complex ESG data into practical business guidance.
               
-
       - company: 'Balu and Anand Chartered Accountants'
         companyUrl: '#'
         jobs:
