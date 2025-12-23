@@ -178,7 +178,7 @@ params:
         - 'Excel & Tableau'
         - 'Net Zero Strategy'
 
-# Experience
+  # Experience
   experience:
     enable: true
     # title: "Custom Name"
@@ -202,7 +202,7 @@ params:
               - Conducted policy analysis and stakeholder data collection through interviews with four businesses, validating carbon footprint data and identifying decarbonisation priorities aligned with Scotland's 2045 Net Zero targets.
               - Conducted quantitative data analysis and developed visual performance tracking framework enabling stakeholders to identify priority intervention areas and track decarbonisation progress.
               - Delivered implementation roadmap and actionable recommendations to SOSE, demonstrating ability to translate complex ESG data into practical business guidance.
-              
+
       - company: 'Balu and Anand Chartered Accountants'
         companyUrl: '#'
         jobs:
@@ -249,7 +249,7 @@ params:
             - Stratrgy Power & Politics: Navigating to Net Zero
             - Corporate Responsibility
             - Sustainability in Practice
-          
+
           Key Projects:
             - Built an excel-based personal carbon footprint model using the GHG Protocol Corporate and Scope 3 Standards, calculating Scope 1, 2, and selected Scope 3 emissions.
             - Produced strategic Net Zero policy analysis applying political economy, mission-led innovation, and climate governance frameworks
@@ -291,7 +291,7 @@ params:
         content: Student member of the Institute of Sustainability and Environmental Professionals, demonstrating commitment to environmental sustainability.
       - title: Associate Chartered Accountant (ICAI)
         content: Professional member of the Institute of Chartered Accountants of India with expertise in auditing, financial reporting, and risk management.
-        
+
   # Voluneering & Achievements
   volunteering & achievements:
     enable: true
@@ -299,14 +299,6 @@ params:
     content: My volunteering journey began at 10, and over the years I've worked with organisations focused on sustainability, education, and social impact, causes I'm deeply passionate about.
     items:
       - title: Sustainapod, Events Team
-<<<<<<< HEAD
-        content: I joined SustainaPod's Events Team to create conversations that feel real, not rehearsed, spaces where students can connect with sustainability professionals and get the insights they actually need.
-        - My role is part speaker coordination, part event design, and entirely focused on making sessions interactive and valuable. SustainaPod reaches 10,000+ listeners, and knowing our work might inspire someone's next career step makes it all worthwhile.
-        image: /images/Volunteering1.png
-      - title: U&I Trust, Leader
-        content: From 2020 to 2024, I volunteered with U&I Trust, starting as a mathematics teacher and growing into a leader managing 40+ volunteers across 3 centers. Together, we ran mentorship and life skills programs for 100+ youth aged 14-18.
-        - It wasn't just about academics, it was about showing young people they mattered. Challenging, rewarding work that taught me as much as I taught them.
-=======
         content: |-
           I've always believed that the best conversations happen when people feel genuinely heard. That's why I joined SustainaPod's Events Team to create spaces where students can connect with sustainability professionals in a way that feels real, not rehearsed.
 
@@ -320,10 +312,7 @@ params:
           - I became a Leader, training and mentoring 40+ volunteers across 3 centers, helping them become better teachers and connect meaningfully with students. Together, we ran mentorship and life skills programs for over 100 underprivileged youth aged 14-18.
           - The goal was never just academics, it was about showing young people that someone believed in them. That they had potential. That they mattered.
           - It was challenging, rewarding, and taught me as much as I hope I taught those young minds.
->>>>>>> origin/main
         image: /images/Volunteering2.png
-      
-      
 
   # projects
   projects:
@@ -337,9 +326,9 @@ params:
           name: Demo
           link: https://hugo-profile.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - 'Hugo'
+          - 'Bootstrap'
+          - 'Javascript'
         links:
           - icon: fa fa-envelope
             url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
@@ -355,8 +344,8 @@ params:
           name: Demo
           link: https://django-converter.herokuapp.com
         badges:
-          - "Django"
-          - "Bootstrap"
+          - 'Django'
+          - 'Bootstrap'
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
@@ -368,13 +357,12 @@ params:
           name: Demo V2
           link: https://hugo-profile-2.netlify.app
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - 'Hugo'
+          - 'Bootstrap'
+          - 'Javascript'
         links:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/HugoProfileV2
-
 
   #Contact
   contact:
