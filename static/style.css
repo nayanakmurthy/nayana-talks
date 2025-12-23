@@ -18,3 +18,62 @@
     white-space: normal;
   }
 }
+
+/* Make volunteering section match achievements section styling exactly */
+#volunteering a {
+    text-decoration: none;
+}
+
+#volunteering h3 {
+    color: var(--text-secondary-color) !important;
+}
+
+#volunteering .card {
+    cursor: context-menu;
+    background-color: var(--secondary-color) !important;
+    border-radius: 1rem;
+    box-shadow: 0 0 36px rgba(0,0,0,0.1);
+    transition: box-shadow .2s linear,opacity .2s linear;
+    border: 2px solid transparent;
+}
+
+#volunteering a.card {
+    cursor: alias;
+}
+
+#volunteering .card h5 {
+    color: var(--text-color) !important;
+    opacity: 0.9;
+}
+
+#volunteering .card:hover {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+
+#volunteering .card:focus {
+    border: 2px solid var(--text-color);
+    transition: .3s;
+}
+
+#volunteering .card-text {
+    background-color: var(--secondary-color) !important;
+    color: var(--text-secondary-color) !important;
+}
+
+#volunteering img {
+    border-radius: 0.7rem;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+#volunteering .card-body {
+    padding: 1rem 0.5rem !important;
+}
+
+#volunteering .card-text {
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
