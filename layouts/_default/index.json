@@ -1,0 +1,65 @@
+{{- $.Scratch.Add "index" slice -}}
+
+{{- /* Add blog posts and regular pages */ -}}
+{{- range .Site.RegularPages -}}
+    {{- $.Scratch.Add "index" (dict "title" .Title "description" .Params.description "content" .Plain "image" .Params.image "permalink" .Permalink "type" "blog") -}}
+{{- end -}}
+
+{{- /* Add experience items */ -}}
+{{- if .Site.Params.experience.enable -}}
+    {{- range $idx, $item := .Site.Params.experience.items -}}
+        {{- $companyName := $item.company -}}
+        {{- $companyUrl := $item.companyUrl -}}
+        {{- range $jobIdx, $job := $item.jobs -}}
+            {{- $jobTitle := $job.name -}}
+            {{- $jobDate := $job.date -}}
+            {{- $jobContent := $job.content -}}
+            {{- $searchContent := printf "%s - %s at %s (%s)" $jobTitle $companyName $jobDate $jobContent -}}
+            {{- $.Scratch.Add "index" (dict "title" (printf "%s at %s" $jobTitle $companyName) "description" (printf "Work experience: %s" $jobDate) "content" $searchContent "permalink" (printf "%s#experience" $.Site.BaseURL) "type" "experience") -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* Add education items */ -}}
+{{- if .Site.Params.education.enable -}}
+    {{- range $idx, $edu := .Site.Params.education.items -}}
+        {{- $degreeTitle := $edu.title -}}
+        {{- $schoolName := "" -}}
+        {{- if $edu.school -}}
+            {{- $schoolName = $edu.school.name -}}
+        {{- end -}}
+        {{- $eduDate := $edu.date -}}
+        {{- $eduContent := $edu.content -}}
+        {{- $searchContent := printf "%s from %s (%s) %s" $degreeTitle $schoolName $eduDate $eduContent -}}
+        {{- $.Scratch.Add "index" (dict "title" (printf "%s - %s" $degreeTitle $schoolName) "description" (printf "Education: %s" $eduDate) "content" $searchContent "permalink" (printf "%s#education" $.Site.BaseURL) "type" "education") -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* Add achievements */ -}}
+{{- if .Site.Params.achievements.enable -}}
+    {{- range $idx, $achievement := .Site.Params.achievements.items -}}
+        {{- $achTitle := $achievement.title -}}
+        {{- $achContent := $achievement.content -}}
+        {{- $.Scratch.Add "index" (dict "title" $achTitle "description" "Certification & Professional Development" "content" $achContent "permalink" (printf "%s#achievements" $.Site.BaseURL) "type" "achievement") -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* Add volunteering items */ -}}
+{{- if .Site.Params.volunteering.enable -}}
+    {{- range $idx, $volunteer := .Site.Params.volunteering.items -}}
+        {{- $volTitle := $volunteer.title -}}
+        {{- $volContent := $volunteer.content -}}
+        {{- $.Scratch.Add "index" (dict "title" $volTitle "description" "Volunteering" "content" $volContent "permalink" (printf "%s#volunteering" $.Site.BaseURL) "type" "volunteering") -}}
+    {{- end -}}
+{{- end -}}
+
+{{- /* Add projects */ -}}
+{{- if .Site.Params.projects.enable -}}
+    {{- range $idx, $project := .Site.Params.projects.items -}}
+        {{- $projTitle := $project.title -}}
+        {{- $projContent := $project.content -}}
+        {{- $.Scratch.Add "index" (dict "title" $projTitle "description" "Project" "content" $projContent "permalink" (printf "%s#projects" $.Site.BaseURL) "type" "project") -}}
+    {{- end -}}
+{{- end -}}
+
+{{- $.Scratch.Get "index" | jsonify -}}
