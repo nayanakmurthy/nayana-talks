@@ -292,8 +292,8 @@ params:
       - title: Associate Chartered Accountant (ICAI)
         content: Professional member of the Institute of Chartered Accountants of India with expertise in auditing, financial reporting, and risk management.
 
-  # Voluneering & Achievements
-  volunteering & achievements:
+  # Voluneering 
+  volunteering:
     enable: true
     title: 'Volunteering'
     content: My volunteering journey began at 10, and over the years I've worked with organisations focused on sustainability, education, and social impact, causes I'm deeply passionate about.
