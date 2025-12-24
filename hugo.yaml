@@ -55,7 +55,7 @@ Menus:
 
 params:
   title: 'Nayana Keshava Murthy'
-  description: "ESG professional combining accounting rigor with sustainability expertise. Chartered Accountant, MSc Global Strategy and Sustainability from University of Edinburgh, CSRD certified. Experienced in ESG frameworks (GRI, BRSR), governance analysis, sustainability strategy and carbon accounting methodology."
+  description: "ESG professional with Distinction MSc from University of Edinburgh and 3+ years' experience in ESG data collection, validation and analysis, sustainability reporting, auditing, and data management."
   # staticPath: ""  # The path to serve the static files from
   favicon: '/fav.png'
 
@@ -135,7 +135,7 @@ params:
     intro: "Hi, I'm"
     title: 'Nayana Keshava Murthy'
     subtitle: 'ESG & Sustainability Professional'
-    content: "MSc Global Strategy and Sustainability (Distinction) from University of Edinburgh with 3+ years' experience in ESG data collection, validation and analysis, sustainability reporting, and GHG emission calculations. CSRD certified with expertise in ESRS standards."
+    content: "ESG professional combining accounting rigor with sustainability expertise. Chartered Accountant, MSc Global Strategy and Sustainability from University of Edinburgh, CSRD certified. Experienced in ESG frameworks (GRI, BRSR), governance analysis, sustainability strategy and carbon accounting."
     image: /images/hero.jpeg
     bottomImage:
       enable: true
