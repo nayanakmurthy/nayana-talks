@@ -293,8 +293,10 @@ params:
         image: /images/achievement.jpg
       - title: ISEP Student Member
         content: Student member of the Institute of Sustainability and Environmental Professionals, demonstrating commitment to environmental sustainability.
+        image: /images/isep.png
       - title: Associate Chartered Accountant (ICAI)
         content: Professional member of the Institute of Chartered Accountants of India with expertise in auditing, financial reporting, and risk management.
+        image: /images/icai.jpg
 
   # Voluneering 
   volunteering:
