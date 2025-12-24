@@ -54,7 +54,7 @@ Menus:
     #   weight: 2
 
 params:
-  title: 'Nayana Keshava Murthy'
+  title: 'Nayana'
   description: "ESG professional with Distinction MSc from University of Edinburgh and 3+ years' experience in ESG data collection, validation and analysis, sustainability reporting, auditing, and data management."
   # staticPath: ""  # The path to serve the static files from
   favicon: '/fav.png'
@@ -284,13 +284,13 @@ params:
     items:
       - title: CSRD Fundamentals
         content: Completed comprehensive training on Corporate Sustainability Reporting Directive fundamentals (May 2025)
-        image: /images/achievement.jpg
+        image: /images/csrd.png
       - title: Double Materiality Assessment for CSRD
         content: Deep dive certification on Double Materiality Assessment methodology for CSRD Reporting (June 2025)
-        image: /images/achievement.jpg
+        image: /images/mat.jpeg
       - title: CSRD & ESRS for Corporates
         content: Advanced training on Corporate Sustainability Reporting Directive and European Sustainability Reporting Standards implementation (May 2025)
-        image: /images/achievement.jpg
+        image: /images/ersr.jpeg
       - title: ISEP Student Member
         content: Student member of the Institute of Sustainability and Environmental Professionals, demonstrating commitment to environmental sustainability.
         image: /images/isep.png
