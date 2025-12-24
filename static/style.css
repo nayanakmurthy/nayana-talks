@@ -21,82 +21,92 @@
 
 /* Improve skills list display - make it less congested */
 #about .skills ul {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 0.75rem;
-    margin-top: 1rem;
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
 }
 
 #about .skills li {
-    padding: 0.5rem 1rem;
-    background: var(--secondary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--text-color);
-    opacity: 0.8;
-    transition: opacity 0.2s;
+  padding: 0.5rem 1rem;
+  background: var(--secondary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--text-color);
+  opacity: 0.8;
+  transition: opacity 0.2s;
 }
 
 #about .skills li:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 /* Make volunteering section match achievements section styling exactly */
 #volunteering a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #volunteering h3 {
-    color: var(--text-secondary-color) !important;
+  color: var(--text-secondary-color) !important;
 }
 
 #volunteering .card {
-    cursor: context-menu;
-    background-color: var(--secondary-color) !important;
-    border-radius: 1rem;
-    box-shadow: 0 0 36px rgba(0,0,0,0.1);
-    transition: box-shadow .2s linear,opacity .2s linear;
-    border: 2px solid transparent;
+  cursor: context-menu;
+  background-color: var(--secondary-color) !important;
+  border-radius: 1rem;
+  box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s linear, opacity 0.2s linear;
+  border: 2px solid transparent;
 }
 
 #volunteering a.card {
-    cursor: alias;
+  cursor: alias;
 }
 
 #volunteering .card h5 {
-    color: var(--text-color) !important;
-    opacity: 0.9;
+  color: var(--text-color) !important;
+  opacity: 0.9;
 }
 
 #volunteering .card:hover {
-    border: 2px solid var(--text-color);
-    transition: .3s;
+  border: 2px solid var(--text-color);
+  transition: 0.3s;
 }
 
 #volunteering .card:focus {
-    border: 2px solid var(--text-color);
-    transition: .3s;
+  border: 2px solid var(--text-color);
+  transition: 0.3s;
 }
 
 #volunteering .card-text {
-    background-color: var(--secondary-color) !important;
-    color: var(--text-secondary-color) !important;
+  background-color: var(--secondary-color) !important;
+  color: var(--text-secondary-color) !important;
 }
 
 #volunteering img {
-    border-radius: 0.7rem;
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    object-position: center;
+  border-radius: 0.7rem;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
 }
 
 #volunteering .card-body {
-    padding: 1rem 0.5rem !important;
+  padding: 1rem 0.5rem !important;
 }
 
 #volunteering .card-text {
-    font-size: 0.95rem;
-    line-height: 1.5;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+#about ul {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(140px, 600px));
+  gap: 0px 10px;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  overflow: hidden;
+  list-style: none;
 }
