@@ -168,8 +168,7 @@ params:
 
       My commitment to social impact started early. I've been volunteering since I was 10, working with organisations focused on sustainability, education, and social development, causes that remain central to both my personal values and professional work.
 
-      Outside of work? I play so many sports it's become a personality trait now, badminton, volleyball, football, and my latest obsession, squash. When I'm not on a court, you'll find me knitting until my arms hurt, buried in a mystery novel, or learning photography. I've also picked up the art of making traditional Indian dolls, and once attempted surfing (the scratches on my arm prove I should stick to land sports).
-
+      Outside of work? I play too many sports to count, badminton, volleyball, football, and squash( my latest obsession). I also knit, read mystery novels , and I'm learning photography. I recently picked up the art of making traditional Indian dolls and once tried surfing (the scratches prove I should stick to land).
     skills:
       enable: true
       title: 'Core Competencies & Technical Skills:'
@@ -300,7 +299,6 @@ params:
   volunteering:
     enable: true
     title: 'Volunteering'
-    content: My volunteering journey began at 10, and over the years I've worked with organisations focused on sustainability, education, and social impact, causes I'm deeply passionate about.
     items:
       - title: Sustainapod, Events Team
         content: |-
