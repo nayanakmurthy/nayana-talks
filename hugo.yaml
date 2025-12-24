@@ -164,7 +164,12 @@ params:
 
       With a proven track record of delivering ESG KPIs for 150+ companies using GRI and BRSR frameworks, I bring expertise in supporting ESG rating processes and managing GHG emission calculations (Scope 1, 2, 3). I am CSRD certified with working knowledge of ESRS standards and hold a Chartered Accountant qualification from ICAI.
 
-      Based in Klaus, Vorarlberg, Austria, I combine technical expertise with strategic thinking to help organizations navigate their sustainability journey and meet evolving ESG reporting requirements.
+      Based in Klaus, Vorarlberg, Austria, I combine technical expertise with strategic thinking to help organisations navigate their sustainability journey and meet evolving ESG reporting requirements.
+
+      My commitment to social impact started early. I've been volunteering since I was 10, working with organisations focused on sustainability, education, and social development, causes that remain central to both my personal values and professional work.
+
+      Outside of work? I play so many sports it's become a personality trait now, badminton, volleyball, football, and my latest obsession, squash. When I'm not on a court, you'll find me knitting until my arms hurt, buried in a mystery novel, or learning photography. I've also picked up the art of making traditional Indian dolls, and once attempted surfing (the scratches on my arm prove I should stick to land sports).
+
     skills:
       enable: true
       title: 'Core Competencies & Technical Skills:'
@@ -198,11 +203,10 @@ params:
           - name: 'Sustainability Consultant'
             date: 'January 2025 - April 2025'
             content: |
-              - Developed Net Zero transition roadmap for tourism SMEs involving GHG emission calculations (Scope 1, 2, 3) using GHG Protocol methodology and carbon footprint assessment tools. 
-              - Conducted policy analysis and stakeholder data collection through interviews with four businesses, validating carbon footprint data and identifying decarbonisation priorities aligned with Scotland's 2045 Net Zero targets.
-              - Conducted quantitative data analysis and developed visual performance tracking framework enabling stakeholders to identify priority intervention areas and track decarbonisation progress.
-              - Delivered implementation roadmap and actionable recommendations to SOSE, demonstrating ability to translate complex ESG data into practical business guidance.
-
+              - Developed five-stage Excel-based Net Zero transition framework built on behavioural principles and 13 sustainability metrics, enabling tourism SMEs to self-assess readiness and access progressive, tailored decarbonisation actions.
+              - Designed carbon tracking guidance using tools like HCMI and SME Carbon Calculators, and produced an explainer video to support self-assessment among resource-constrained businesses.
+              - Led stakeholder engagement with SME leadership to assess decarbonisation readiness and delivered implementation roadmap to SOSE recommending phased rollout options and peer-to-peer learning structures aligned with Scotland's 2045 Net Zero targets.
+     
       - company: 'Balu and Anand Chartered Accountants'
         companyUrl: '#'
         jobs:
