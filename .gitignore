@@ -21,6 +21,7 @@ package-lock.json
 .env.local
 
 
+# Obsidian vault + starter template inside content/blogs (see CLAUDE.md)
 .obsidian
-content/blogs/template/
+content/blogs/Template/
 /content/blogs/hugo.yaml
