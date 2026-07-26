@@ -1,0 +1,35 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(hugo:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git show:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git submodule:*)",
+      "Bash(grep:*)",
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "Bash(brew install hugo)",
+      "Bash(brew reinstall hugo)",
+      "Bash(pkill -f \"hugo server\")",
+      "Read(//Users/nayanamurthy/Documents/portfolio/nayana-talks/**)",
+      "Edit(//Users/nayanamurthy/Documents/portfolio/nayana-talks/**)"
+    ],
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(git revert:*)",
+      "Bash(git reset:*)",
+      "Bash(git checkout:*)",
+      "Bash(rm:*)"
+    ],
+    "deny": [
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Read(./.env)",
+      "Read(./.env.*)"
+    ]
+  }
+}
